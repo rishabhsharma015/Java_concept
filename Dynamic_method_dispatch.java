@@ -27,15 +27,8 @@ public class Dynamic_method_dispatch {
 
         Phone obj = new SmartPhone();                                         // It is Allowed
 
-        obj.on();                                        // SmartPhone ka object bana hai to uska "on()" method run hoga
-        obj.showTime();                                  // or bache hue methods ( music(), Ring() ) run nhi honge
-
-                                                         // Phone ka reference bana hai to uska "on()" method run nhi hoga
-                                                         // baaki bache hue methods run honge.
-        // These two method will not execute
-        // 1) obj.Ring();
-        // 2) obj.music();
-
+        obj.on();                                        
+        obj.showTime();                                  
 
     }
 }
